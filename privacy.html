@@ -29,7 +29,7 @@
 <body>
 
 <h1>Cornerman Privacy Policy</h1>
-<p><strong>Effective date:</strong> 14 October 2026<br>
+<p><strong>Effective date:</strong> 22 October 2026<br>
 <strong>Who we are:</strong> Cornerman ("we", "us") makes the Cornerman app. We are the controller of the personal information described here.<br>
 <strong>Contact:</strong> <a href="mailto:support.cornerman@gmail.com">support.cornerman@gmail.com</a></p>
 <p>This policy explains what Cornerman collects, where it goes, who can see it, and how to delete it. We've tried to write it plainly. If anything is unclear, email us.</p>
@@ -37,7 +37,7 @@
 <ul>
   <li>Most of what you tell Cornerman stays <strong>on your phone</strong>: your profile, injuries, equipment, workouts and photos.</li>
   <li>If you <strong>sign in with Apple to use Fight Camps</strong>, some of it goes to our server so your campmates can see your progress. Your injuries, age, equipment and workout details are never sent.</li>
-  <li><strong>Campmates</strong> in your camps see your display name, weight class, style, stats, streak, fight record and how many days you've trained this week. If you miss a planned training day, they're told that you missed it, and nothing more.</li>
+  <li><strong>Campmates</strong> in your camps see your display name, weight class, style, stats, streak, fight record and whether you've trained today. They also see fist bumps you send them, your camp's total training days for the week and its goal, and who took last week's crown. If you miss a planned training day, they're told that you missed it, and nothing more.</li>
   <li>Subscriptions go through <strong>Apple</strong>, and <strong>RevenueCat</strong> keeps track of them.</li>
   <li>We don't sell your data, show ads, or track you. Once you've told the app you're 13 or older, we count anonymous app usage, like how many people finish each setup step, with <strong>Aptabase</strong>. It never includes your name, age, injuries, training or any account or device ID, and you can turn it off in <strong>Profile → Privacy → Share anonymous usage</strong>.</li>
   <li>If the app hits an error, a <strong>crash report</strong> goes to <strong>Sentry</strong> so we can fix it. It says what went wrong and where in the app, never who you are or what you logged, and it's never sent for anyone under 13.</li>
@@ -72,14 +72,16 @@
 <table>
 <thead><tr><th>What</th><th>Why</th></tr></thead>
 <tbody><tr><td>Display name, weight class, fighting style</td><td>Shown to your campmates</td></tr>
-<tr><td>Stats, streak, fight record, last training date, number of training days this week</td><td>Shown to your campmates on the camp roster</td></tr>
+<tr><td>Stats, streak, fight record, last training date</td><td>Shown to your campmates on the camp roster</td></tr>
 <tr><td>Camps you create or join, and when you joined</td><td>To run camps</td></tr>
 <tr><td>Your planned training weekdays, the dates you trained (and when each reached our server), and your time zone</td><td>To work out whether you missed a planned training day, in your own time zone. Only <strong>dates</strong> are sent: no workout type, intensity or injury.</td></tr>
 <tr><td>Missed planned training days, once confirmed</td><td>So a missed day is reported fairly, and can't be undone by logging it afterwards</td></tr>
 <tr><td>The dates you paused training with "I'm sick or hurt" (and when each reached our server)</td><td>So a paused day never counts as a missed training day. Only <strong>dates</strong> are sent: never a reason or anything about your health. Campmates are never told you paused.</td></tr>
-<tr><td>Push notification token for your device</td><td>To send tap-out alerts</td></tr>
-<tr><td>Per-camp alert mutes and your Camp Alerts setting</td><td>To respect your notification choices</td></tr>
-<tr><td>Records of which alerts were sent</td><td>So the same alert is never sent twice</td></tr>
+<tr><td>Fist bumps you send and receive: who sent one, to whom, and for which day</td><td>To show a campmate you saw their session, and to tell them</td></tr>
+<tr><td>Your camp's weekly results: its goal, its total, whether it hit the goal, who earned the week's credit and who took the crown</td><td>To run the camp goal and the Monday recap</td></tr>
+<tr><td>Push notification token for your device</td><td>To send campmate alerts, fist bumps and the Monday recap</td></tr>
+<tr><td>Per-camp alert mutes, and your Campmate alerts and Fist bumps settings</td><td>To respect your notification choices</td></tr>
+<tr><td>Records of which alerts were sent</td><td>So the same alert is never sent twice, and so you get no more than 3 fist bump notifications a day</td></tr>
 <tr><td>Wrong camp-code attempts</td><td>To stop people guessing camp codes</td></tr>
 <tr><td>People you've blocked</td><td>To hide you from each other</td></tr>
 <tr><td>Reports you make about other users</td><td>To review them (see section 6)</td></tr></tbody>
@@ -91,10 +93,14 @@
 <ul>
   <li>your display name, weight class and fighting style</li>
   <li>your stats, current streak and fight record</li>
-  <li>your last training date and how many days you've trained this week</li>
+  <li>your last training date</li>
+  <li>whether you've <strong>trained today</strong>. Only that you trained: never what, how long or how hard</li>
+  <li><strong>fist bumps</strong> you send them. When you fist bump a campmate's session, they see your name in a notification</li>
+  <li>your camp's <strong>weekly goal</strong>: the camp's total training days for the week and the goal. Never how many days each person trained</li>
+  <li><strong>last week's crown</strong>: who trained the most days in the camp that week</li>
   <li>that you've <strong>missed a planned training day</strong>, through a tap-out alert the next morning. They learn nothing else about your plan or training. You get a private reminder the evening before.</li>
 </ul>
-<p>Campmates <strong>cannot</strong> see your email, age, injuries, equipment, workout details, time zone, paused days, or who you've blocked or reported.</p>
+<p>Campmates <strong>cannot</strong> see your email, age, injuries, equipment, workout details, how many days you've trained, time zone, paused days, or who you've blocked or reported.</p>
 <p>People who aren't in a camp with you can't see anything about you.</p>
 <p><strong>Blocking:</strong> if you block someone, or they block you, neither of you can see the other in any camp, and you won't get alerts about each other. They aren't told.</p>
 <h2>4. Service providers we use</h2>
@@ -147,6 +153,9 @@
 <tr><td>Confirmed missed training days, and which campmates were told</td><td>35 days</td></tr>
 <tr><td>Dates you paused training ("I'm sick or hurt")</td><td>45 days</td></tr>
 <tr><td>Records of evening reminders and morning alerts sent</td><td>14 days</td></tr>
+<tr><td>Fist bumps</td><td>14 days</td></tr>
+<tr><td>Records of fist bump notifications and Monday recaps sent</td><td>14 days</td></tr>
+<tr><td>Camp goal results, credits and crowns</td><td>12 weeks</td></tr>
 <tr><td>Wrong camp-code attempts</td><td>1 day</td></tr></tbody>
 </table>
 <h2>8. Deleting your account</h2>
@@ -160,7 +169,7 @@
 <p>Copies of your fighter in your own iCloud or computer backups aren't touched; delete those backups in iOS Settings if you want them gone.</p>
 <p>Deleting your account doesn't cancel an App Store subscription. Cancel it in <strong>Settings → [your name] → Subscriptions</strong>.</p>
 <h2>9. Notifications</h2>
-<p>Cornerman asks before sending notifications. You can turn tap-out alerts off for a single camp from the camp screen, turn them all off in Profile → Notifications → Campmate alerts, or turn off all notifications in iOS Settings.</p>
+<p>Cornerman asks before sending notifications. You can turn campmate alerts (missed training days, the Monday recap and fist bumps) off for a single camp from the camp screen, turn them all off in Profile → Notifications → Campmate alerts, turn off just fist bumps in Profile → Notifications → Fist bumps, or turn off all notifications in iOS Settings.</p>
 <h2>10. Children</h2>
 <p>Cornerman's solo training features are open to all ages, and the information they use stays on your device (section 1). We don't receive it.</p>
 <p><strong>Nothing is sent to Aptabase until an age of 13 or over has been entered.</strong> The welcome and age screens are never counted, the Share anonymous usage switch stays off under 13, nothing is sent once an age under 13 is entered, and nothing is ever sent for a profile under 13 or with no age on file. Crash reports (section 4) are never sent for a profile under 13 or with no age on file.</p>
@@ -181,7 +190,7 @@
 <thead><tr><th>Information</th><th>Legal basis</th></tr></thead>
 <tbody><tr><td>Information on your device (section 1)</td><td>We don't receive it, so we don't process it.</td></tr>
 <tr><td>Subscription and purchase records (RevenueCat, Apple)</td><td>Performing our contract with you: providing the subscription you bought.</td></tr>
-<tr><td>Fight Camps account, profile, camps, training dates, missed days and push token (section 2)</td><td>Performing our contract with you: providing Fight Camps and tap-out alerts, which you choose to use.</td></tr>
+<tr><td>Fight Camps account, profile, camps, training dates, missed days, fist bumps, camp goal results and push token (section 2)</td><td>Performing our contract with you: providing Fight Camps, campmate alerts, fist bumps and the camp goal, which you choose to use.</td></tr>
 <tr><td>Notifications</td><td>Your consent, which you give through iOS's permission prompt and can withdraw in Settings at any time.</td></tr>
 <tr><td>Paused dates ("I'm sick or hurt")</td><td>Your explicit consent, given when you choose to pause while signed in (section 2). You can withdraw it at any time.</td></tr>
 <tr><td>Reports, blocks, display name checks and wrong camp-code attempts</td><td>Our legitimate interest in keeping Fight Camps safe and stopping abuse.</td></tr>
